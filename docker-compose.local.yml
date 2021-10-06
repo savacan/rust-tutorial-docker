@@ -1,0 +1,17 @@
+version: '3.7'
+
+services:
+  rust-dev:
+    image: rust:latest
+    container_name: rust_dev
+    working_dir: /app
+    volumes:
+      - ./:/app
+      - rust_dev_target:/app/target
+    tty: true
+    environment:
+      USER: savacan # cargo で必要になる
+      CARGO_BUILD_TARGET_DIR: /app/target
+
+volumes:
+  rust_dev_target:
