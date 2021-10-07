@@ -11,7 +11,8 @@
         "rust.target_dir": "/app/target"
     },
     "extensions": [
-        "rust-lang.rust",
-        "vadimcn.vscode-lldb"
-    ]
+		"rust-lang.rust",
+		"vadimcn.vscode-lldb",
+		"matklad.rust-analyzer"
+	]
 }
