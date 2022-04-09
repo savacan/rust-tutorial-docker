@@ -10,4 +10,3 @@ services:
     tty: true
     environment:
       USER: savacan # cargo で必要になる
-      CARGO_BUILD_TARGET_DIR: /app/target
