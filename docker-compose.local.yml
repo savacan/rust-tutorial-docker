@@ -2,7 +2,7 @@ version: '3.7'
 
 services:
   rust-dev:
-    image: rust:latest
+    image: rust:1.61
     container_name: rust_dev
     working_dir: /app
     volumes:
